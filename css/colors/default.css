@@ -48,6 +48,10 @@ a.link:focus {
 	background-color: #4fb5ef !important;
 }
 
+.bg-theme-light {
+	background-color: #a6cee5 !important;
+}
+
 .pagination > .active > a,
 .pagination > .active > span,
 .pagination > .active > a:hover,
@@ -130,4 +134,9 @@ a.link:focus {
 
 .sidebar-nav > ul > li > a i {
 	color: #787f91;
+}
+
+.theme-border-main {
+	border: 1px solid #4fb5ef !important;
+	border-radius: 8px !important;
 }

@@ -159,7 +159,7 @@ $(function () {
 		},
 
 		color: {
-			pattern: ["#ff9041", "#4FB5EF", "#24d2b5", "#6772e5"], // the three color levels for the percentage values.
+			pattern: ["#FFE38A", "#4FB5EF", "#24d2b5", "#6772e5"], // the three color levels for the percentage values.
 			threshold: {
 				//            unit: 'value', // percentage is default
 				//            max: 200, // 100 is default

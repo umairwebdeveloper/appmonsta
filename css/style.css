@@ -75,6 +75,16 @@ html {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+input:focus {
+	box-shadow: none !important;
+	border: 1px solid #4fb5ef !important;
+}
+
+select:focus {
+	box-shadow: none !important;
+	border: 1px solid #4fb5ef !important;
+}
+
 a {
 	color: #4fb5ef;
 }
@@ -476,7 +486,7 @@ Text Colors
 }
 
 .text-warning {
-	color: #ff9041 !important;
+	color: #ffe38a !important;
 }
 
 .text-success {
@@ -526,7 +536,7 @@ Background Colors
 }
 
 .bg-warning {
-	background-color: #ff9041 !important;
+	background-color: #ffe38a !important;
 }
 
 .bg-danger {
@@ -606,7 +616,7 @@ Rounds
 }
 
 .round.round-warning {
-	background: #ff9041;
+	background: #ffe38a;
 }
 
 .round.round-danger {
@@ -650,7 +660,7 @@ Labels
 }
 
 .label-warning {
-	background-color: #ff9041;
+	background-color: #ffe38a;
 }
 
 .label-danger {
@@ -697,7 +707,7 @@ Labels
 
 .label-light-warning {
 	background-color: #fff8ec;
-	color: #ff9041;
+	color: #ffe38a;
 }
 
 .label-light-danger {
@@ -749,7 +759,7 @@ Labels
 }
 
 .badge-warning {
-	background-color: #ff9041;
+	background-color: #ffe38a;
 	color: #ffffff;
 }
 
@@ -1671,7 +1681,7 @@ ul#themecolors li a.working:before {
 }
 
 .yellow-theme {
-	background: #ff9041;
+	background: #ffe38a;
 }
 
 .red-theme {
@@ -2034,7 +2044,7 @@ Notification page Jquery toaster
 }
 
 .jq-icon-warning {
-	background-color: #ff9041;
+	background-color: #ffe38a;
 	color: #ffffff;
 }
 
@@ -2412,18 +2422,18 @@ Buttons
 
 .btn-warning,
 .btn-warning.disabled {
-	background: #ff9041;
+	background: #ffe38a;
 	color: #ffffff;
 	/*box-shadow: $warning-shadow;*/
-	border: 1px solid #ff9041;
+	border: 1px solid #ffe38a;
 	transition: 0.2s ease-in;
 }
 .btn-warning:hover,
 .btn-warning.disabled:hover {
-	background: #ff9041;
+	background: #ffe38a;
 	color: #ffffff;
 	/*box-shadow: $warning-shadow-hover;*/
-	border: 1px solid #ff9041;
+	border: 1px solid #ffe38a;
 }
 .btn-warning.active,
 .btn-warning:active,
@@ -2592,17 +2602,17 @@ Buttons
 }
 
 .btn-outline-warning {
-	color: #ff9041;
+	color: #ffe38a;
 	background-color: transparent;
-	border-color: #ff9041;
+	border-color: #ffe38a;
 	/*box-shadow: $warning-shadow;*/
 	transition: 0.2s ease-in;
 }
 .btn-outline-warning:hover,
 .btn-outline-warning:focus,
 .btn-outline-warning.focus {
-	background: #ff9041;
-	border-color: #ff9041;
+	background: #ffe38a;
+	border-color: #ffe38a;
 	color: #ffffff;
 	/*box-shadow: $warning-shadow-hover;*/
 }
@@ -4629,7 +4639,7 @@ Table-Layout
 }
 
 .color-table.warning-table thead th {
-	background-color: #ff9041;
+	background-color: #ffe38a;
 	color: #ffffff;
 }
 
@@ -4688,10 +4698,10 @@ Table-Layout
 }
 
 .color-bordered-table.warning-bordered-table {
-	border: 2px solid #ff9041;
+	border: 2px solid #ffe38a;
 }
 .color-bordered-table.warning-bordered-table thead th {
-	background-color: #ff9041;
+	background-color: #ffe38a;
 	color: #ffffff;
 }
 
@@ -4795,7 +4805,7 @@ Table-Layout
 	background-color: #fff8ec;
 }
 .full-color-table.full-warning-table thead th {
-	background-color: #ff9041;
+	background-color: #ffe38a;
 	border: 0;
 	color: #ffffff;
 }
@@ -4803,7 +4813,7 @@ Table-Layout
 	border: 0;
 }
 .full-color-table.full-warning-table tr:hover {
-	background-color: #ff9041;
+	background-color: #ffe38a;
 	color: #ffffff;
 }
 
@@ -5363,10 +5373,10 @@ File: scss
 	background: #ff5c6c;
 }
 .mailbox .message-center a .user-img .away {
-	background: #ff9041;
+	background: #ffe38a;
 }
 .mailbox .message-center a .user-img .offline {
-	background: #ff9041;
+	background: #ffe38a;
 }
 .mailbox .message-center a .mail-contnet {
 	display: inline-block;
@@ -5945,7 +5955,7 @@ File: scss
 .has-warning .form-check-label,
 .has-warning .form-control-feedback,
 .has-warning .form-control-label {
-	color: #ff9041;
+	color: #ffe38a;
 }
 
 .has-warning .form-control-warning {
@@ -5953,7 +5963,7 @@ File: scss
 }
 
 .has-warning .form-control {
-	border-color: #ff9041;
+	border-color: #ffe38a;
 }
 
 .has-danger .col-form-label,
