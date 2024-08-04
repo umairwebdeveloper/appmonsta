@@ -284,6 +284,8 @@
 										<button
 											class="btn btn-primary w-100"
 											type="button"
+											data-bs-toggle="modal"
+											data-bs-target="#connectModal"
 										>
 											Change Email & Password
 										</button>
@@ -759,6 +761,101 @@
 			<!-- ============================================================== -->
 		</div>
 		<!-- ============================================================== -->
+		<div
+			class="modal fade"
+			id="connectModal"
+			tabindex="-1"
+			aria-labelledby="connectModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<!-- Modal Header -->
+					<div class="modal-header border-0 mb-0 pb-0">
+						<h4 class="modal-title fw-bold" id="connectModalLabel">
+							Connect Now!
+						</h4>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="modal"
+						></button>
+					</div>
+					<!-- Modal body -->
+					<div class="modal-body pt-1">
+						<p>Supply your current password to make any changes.</p>
+						<form>
+							<div class="mb-3">
+								<label
+									for="currentPassword"
+									class="form-label fw-bold"
+									>Current Password</label
+								>
+								<input
+									type="password"
+									class="form-control"
+									id="currentPassword"
+									placeholder="Write here"
+								/>
+							</div>
+							<div class="mb-3">
+								<label for="email" class="form-label fw-bold"
+									>Email</label
+								>
+								<input
+									type="email"
+									class="form-control"
+									id="email"
+									placeholder="Write here"
+								/>
+							</div>
+							<div class="mb-3">
+								<label for="password" class="form-label fw-bold"
+									>Password</label
+								>
+								<input
+									type="password"
+									class="form-control"
+									id="password"
+									placeholder="Write here"
+								/>
+							</div>
+							<div class="">
+								<label
+									for="confirmPassword"
+									class="form-label fw-bold"
+									>Confirm Password</label
+								>
+								<input
+									type="password"
+									class="form-control"
+									id="confirmPassword"
+									placeholder="Write here"
+								/>
+							</div>
+						</form>
+						<div
+							class="border-0 w-100 d-flex justify-content-between gap-3 align-items-center my-4"
+						>
+							<button type="button" class="btn btn-warning w-50">
+								Save
+							</button>
+							<button
+								type="button"
+								class="btn btn-outline-warning text-dark w-50"
+								data-bs-dismiss="modal"
+							>
+								Nevermind
+							</button>
+						</div>
+						<p class="text-center">
+							Appmonsta @ 2024 Contact Privacy Policy Terms of
+							Service MonstaGPT API docs AppMonsta API docs
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!-- End Wrapper -->
 		<!-- ============================================================== -->
 		<!-- ============================================================== -->

@@ -154,6 +154,14 @@ a.link:focus {
 	background-color: #e5f0f6 !important;
 }
 
+.p-tag-custom-striped p:nth-of-type(odd) {
+	background-color: #fff2c9 !important;
+}
+
 .bg-theme-light-secondary {
 	background-color: #e5f0f6 !important;
+}
+
+.bg-theme-light-warning {
+	background-color: #fff2c950 !important;
 }
