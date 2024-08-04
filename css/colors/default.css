@@ -140,3 +140,16 @@ a.link:focus {
 	border: 1px solid #4fb5ef !important;
 	border-radius: 8px !important;
 }
+
+.theme-border-secondary {
+	border: 1px solid #ffe38a !important;
+	border-radius: 8px !important;
+}
+
+.custom-table-striped tbody tr:nth-of-type(odd) {
+	background-color: #e5f0f6 !important;
+}
+
+.bg-theme-light-secondary {
+	background-color: #e5f0f6 !important;
+}

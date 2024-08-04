@@ -45,7 +45,7 @@ $(function () {
 			//or hide: ['data1', 'data2']
 		},
 		color: {
-			pattern: ["#eceff1", "#24d2b5", "#6772e5", "#4FB5EF"],
+			pattern: ["#eceff1", "#7CDA24", "#4FB5EF", "#4FB5EF"],
 		},
 	});
 	// ==============================================================
@@ -91,7 +91,7 @@ $(function () {
 			height: 290,
 		},
 		color: {
-			pattern: ["#24d2b5", "#4FB5EF"],
+			pattern: ["#7CDA24", "#4FB5EF"],
 		},
 	});
 
@@ -135,7 +135,7 @@ $(function () {
 			//or hide: ['data1', 'data2']
 		},
 		color: {
-			pattern: ["#eceff1", "#24d2b5", "#6772e5", "#4FB5EF"],
+			pattern: ["#eceff1", "#7CDA24", "#4FB5EF", "#4FB5EF"],
 		},
 	});
 	// ==============================================================
@@ -159,7 +159,7 @@ $(function () {
 		},
 
 		color: {
-			pattern: ["#FFE38A", "#4FB5EF", "#24d2b5", "#6772e5"], // the three color levels for the percentage values.
+			pattern: ["#FFE38A", "#4FB5EF", "#7CDA24", "#4FB5EF"], // the three color levels for the percentage values.
 			threshold: {
 				//            unit: 'value', // percentage is default
 				//            max: 200, // 100 is default
@@ -246,12 +246,12 @@ $(function () {
 		labels: ["Site A", "Site B", "Site C"],
 		pointSize: 0,
 		fillOpacity: 0,
-		pointStrokeColors: ["#4FB5EF", "#24d2b5", "#6772e5"],
+		pointStrokeColors: ["#4FB5EF", "#7CDA24", "#4FB5EF"],
 		behaveLikeLine: true,
 		gridLineColor: "#e0e0e0",
 		lineWidth: 3,
 		hideHover: "auto",
-		lineColors: ["#4FB5EF", "#24d2b5", "#6772e5"],
+		lineColors: ["#4FB5EF", "#7CDA24", "#4FB5EF"],
 		resize: true,
 	});
 });
