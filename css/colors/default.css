@@ -146,6 +146,10 @@ a.link:focus {
 	border-radius: 8px !important;
 }
 
+.theme-border-secondary-b {
+	border-bottom: 1px solid #ffe38a !important;
+}
+
 .custom-table-striped tbody tr:nth-of-type(odd) {
 	background-color: #e5f0f6 !important;
 }
